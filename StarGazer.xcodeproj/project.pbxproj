@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0581E592335080B009B231F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0581E582335080B009B231F /* AppDelegate.swift */; };
+		D0581E5B23350BD6009B231F /* StarGazer.scn in Resources */ = {isa = PBXBuildFile; fileRef = D0581E5A23350BD6009B231F /* StarGazer.scn */; };
+		D095874F23298ED700539847 /* HMEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D095874E23298ED700539847 /* HMEViewController.swift */; };
+		D0B219171F8BBEB800BE57B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B219151F8BBEB800BE57B7 /* LaunchScreen.storyboard */; };
+		D0C6C8F02333C3B3003E568B /* HMEService.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C6C8EF2333C3B3003E568B /* HMEService.m */; };
+		D0EFABBD2088C4AC00C7847C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EFABBC2088C4AC00C7847C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D046434820C5909E00B808E8 /* PlaygroundProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaygroundProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		D0581E582335080B009B231F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0581E5A23350BD6009B231F /* StarGazer.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = StarGazer.scn; sourceTree = "<group>"; };
+		D095874E23298ED700539847 /* HMEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMEViewController.swift; sourceTree = "<group>"; };
+		D0B219091F8BBEB800BE57B7 /* StarGazer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarGazer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B219161F8BBEB800BE57B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B219181F8BBEB800BE57B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C6C8EE2333C385003E568B /* HMEService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMEService.h; sourceTree = "<group>"; };
+		D0C6C8EF2333C3B3003E568B /* HMEService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMEService.m; sourceTree = "<group>"; };
+		D0DF6C1120F8C880005AD3E4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D0DF6C1420F8CBAF005AD3E4 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D0EFABBC2088C4AC00C7847C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B219061F8BBEB800BE57B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02AD6BB1FDAA4AC0088B176 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0B219001F8BBEB800BE57B7 = {
+			isa = PBXGroup;
+			children = (
+				D0B2190B1F8BBEB800BE57B7 /* StarGazer */,
+				D0B2190A1F8BBEB800BE57B7 /* Products */,
+				D02AD6BB1FDAA4AC0088B176 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B2190A1F8BBEB800BE57B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B219091F8BBEB800BE57B7 /* StarGazer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B2190B1F8BBEB800BE57B7 /* StarGazer */ = {
+			isa = PBXGroup;
+			children = (
+				D0DF6C0C20F8C7C6005AD3E4 /* Resources */,
+				D0581E582335080B009B231F /* AppDelegate.swift */,
+				D095874E23298ED700539847 /* HMEViewController.swift */,
+				D0C6C8EE2333C385003E568B /* HMEService.h */,
+				D0C6C8EF2333C3B3003E568B /* HMEService.m */,
+			);
+			path = StarGazer;
+			sourceTree = "<group>";
+		};
+		D0DF6C0C20F8C7C6005AD3E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0EFABBC2088C4AC00C7847C /* Assets.xcassets */,
+				D0B219151F8BBEB800BE57B7 /* LaunchScreen.storyboard */,
+				D0B219181F8BBEB800BE57B7 /* Info.plist */,
+				D046434820C5909E00B808E8 /* PlaygroundProject-Bridging-Header.h */,
+				D0581E5A23350BD6009B231F /* StarGazer.scn */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B219081F8BBEB800BE57B7 /* StarGazer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B2191B1F8BBEB800BE57B7 /* Build configuration list for PBXNativeTarget "StarGazer" */;
+			buildPhases = (
+				D0B219051F8BBEB800BE57B7 /* Sources */,
+				D0B219061F8BBEB800BE57B7 /* Frameworks */,
+				D0B219071F8BBEB800BE57B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarGazer;
+			productName = PlaygroundProject;
+			productReference = D0B219091F8BBEB800BE57B7 /* StarGazer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B219011F8BBEB800BE57B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "anyone";
+				TargetAttributes = {
+					D0B219081F8BBEB800BE57B7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D0B219041F8BBEB800BE57B7 /* Build configuration list for PBXProject "StarGazer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				ru,
+				uk,
+			);
+			mainGroup = D0B219001F8BBEB800BE57B7;
+			productRefGroup = D0B2190A1F8BBEB800BE57B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B219081F8BBEB800BE57B7 /* StarGazer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B219071F8BBEB800BE57B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0581E5B23350BD6009B231F /* StarGazer.scn in Resources */,
+				D0B219171F8BBEB800BE57B7 /* LaunchScreen.storyboard in Resources */,
+				D0EFABBD2088C4AC00C7847C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B219051F8BBEB800BE57B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0581E592335080B009B231F /* AppDelegate.swift in Sources */,
+				D0C6C8F02333C3B3003E568B /* HMEService.m in Sources */,
+				D095874F23298ED700539847 /* HMEViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0B219151F8BBEB800BE57B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B219161F8BBEB800BE57B7 /* Base */,
+				D0DF6C1120F8C880005AD3E4 /* ru */,
+				D0DF6C1420F8CBAF005AD3E4 /* uk */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B219191F8BBEB800BE57B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B2191A1F8BBEB800BE57B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B2191C1F8BBEB800BE57B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = StarGazer/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anyone.StarGazer;
+				PRODUCT_NAME = StarGazer;
+				SWIFT_OBJC_BRIDGING_HEADER = "StarGazer/Resources/PlaygroundProject-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D0B2191D1F8BBEB800BE57B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = StarGazer/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anyone.StarGazer;
+				PRODUCT_NAME = StarGazer;
+				SWIFT_OBJC_BRIDGING_HEADER = "StarGazer/Resources/PlaygroundProject-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B219041F8BBEB800BE57B7 /* Build configuration list for PBXProject "StarGazer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B219191F8BBEB800BE57B7 /* Debug */,
+				D0B2191A1F8BBEB800BE57B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B2191B1F8BBEB800BE57B7 /* Build configuration list for PBXNativeTarget "StarGazer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B2191C1F8BBEB800BE57B7 /* Debug */,
+				D0B2191D1F8BBEB800BE57B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B219011F8BBEB800BE57B7 /* Project object */;
+}
